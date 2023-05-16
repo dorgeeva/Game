@@ -15,20 +15,20 @@ while (i <= 5)
         int resultArg = Convert.ToInt32(result);
         if (resultArg == summa)
         {
-            Console.WriteLine("Результат сложения  чисел: " + resultArg.ToString());
+            Console.WriteLine("Результат сложения  чисел верен");
             i += 1;
         }
         else
         {
-            Console.WriteLine("Результат сложения  чисел неверен");
+            Console.WriteLine("Результат сложения  чисел неверен, правильный ответ: " + summa);
             f -= 1;
         }
         if (i == 6)
         {
-            Console.WriteLine(" вы выиграли!");
+            Console.WriteLine("вы выиграли!");
         }
     }
-    else { Console.WriteLine("Попытки закончились!, вы проиграли!"); i = 10; }
+    else { Console.WriteLine("Попытки закончились! вы проиграли!"); i = 10; }
 }
 
 
